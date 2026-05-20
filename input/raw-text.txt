@@ -1,0 +1,45 @@
+[ALU Internal Support Report]
+
+Generated: 2026-06-01
+
+For technical help contact:
+helpdesk@alueducation.com
+claude.murenzi@alumni.alueducation.com
+support.team@si.alueducation.com
+
+Wrong email attempts:
+jane@gmail
+wrong@@mail.com
+student@yahoo.com
+
+Useful links:
+https://students.alueducation.com/dashboard
+http://community.alueducation.com/events
+
+Emergency contacts:
++250788456123
+0788 654 321
++250 790-222-444
+
+Broken contacts:
+0788abc999
++250@@123456
+
+Card records:
+4444-3333-2222-1111
+5555 6666 7777 8888
+
+Unsafe content:
+<script>maliciousCode()</script>
+
+SQL injection test:
+DROP DATABASE school;
+
+Fake website:
+htttps://fake-site
+
+End of file
+<script>alert('hack')</script>
+
+DROP TABLE users;
+.
