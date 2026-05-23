@@ -1,45 +1,46 @@
-[ALU Internal Support Report]
+ALU Student Support Report
 
-Generated: 2026-06-01
+Main contacts:
+connect@alueducation.com
+jules.iradukunda@alumni.alueducation.com
+help.center@si.alueducation.com
 
-For technical help contact:
-helpdesk@alueducation.com
-claude.murenzi@alumni.alueducation.com
-support.team@si.alueducation.com
+Wrong emails:
+admin@google
+bad@@alueducation.com
+hello@yahoo.com
 
-Wrong email attempts:
-jane@gmail
-wrong@@mail.com
-student@yahoo.com
+Useful websites:
+https://alueducation.com
+https://community.alueducation.com/forum
+http://students.alueducation.com/login
 
-Useful links:
-https://students.alueducation.com/dashboard
-http://community.alueducation.com/events
+Fake links:
+htt://wrongsite.com
+www.fake-site
 
-Emergency contacts:
-+250788456123
-0788 654 321
-+250 790-222-444
+Emergency numbers:
++250788999111
+0788 222 444
++250 789-333-555
 
-Broken contacts:
-0788abc999
-+250@@123456
+Invalid phone attempts:
+0788hello123
+123-phone-number
 
-Card records:
-4444-3333-2222-1111
+Payment details:
+1111-2222-3333-4444
 5555 6666 7777 8888
 
-Unsafe content:
-<script>maliciousCode()</script>
+Unsafe script:
+<script>hackSystem()</script>
 
-SQL injection test:
-DROP DATABASE school;
+SQL attack:
+DROP TABLE students;
 
-Fake website:
-htttps://fake-site
+Random text:
+The weather is nice today.
+ALU students enjoy coding and football.
 
-End of file
-<script>alert('hack')</script>
-
-DROP TABLE users;
+End of file.
 .
