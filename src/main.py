@@ -13,11 +13,11 @@ alu_email_regex = r'\b[A-Za-z0-9._%+-]+@(?:alueducation\.com|alumni\.alueducatio
 
 
 # Find phone numbers
-phone_regex = r'(?:\+250|0)\s?\d{3}[\s-]?\d{3}[\s-]?\d{3}'
+phone_regex = r'\b(?:\+250|0)\s?\d{3}[\s-]?\d{3}[\s-]?\d{3}\b'
 
 
 # Find website links
-website_regex = r'https?://[^\s]+'
+website_regex = r'https?://[A-Za-z0-9.-]+\.[A-Za-z]{2,}(?:/[^\s.,?!)#]*)?'
 
 
 # Find credit card numbers
@@ -34,13 +34,13 @@ valid_websites = re.findall(website_regex, raw_text)
 
 #  code to hide sensitive card information
 safe_cards = [
-    "****-****-****-" + card.replace(" ", "-")[-4:]
+    "****-****-****-" + re.sub(r'[\s-]', '', card)[-4:]
     for card in re.findall(card_regex, raw_text)
 ]
 
 
 #code to  check for unsafe input
-if "<script>" in raw_text or "DROP TABLE" in raw_text:
+if re.search(r'<script\b[^>]*>', raw_text, re.IGNORECASE) or re.search(r'\bdrop\s+table\b', raw_text, re.IGNORECASE):
     print("\nSecurity Alert: Unsafe content detected in the text.")
 
 
